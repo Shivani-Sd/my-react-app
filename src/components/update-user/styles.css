@@ -1,0 +1,12 @@
+.update-header {
+  display: flex;
+  gap: 40px;
+}
+
+.select-friends {
+    margin-top: 30px;
+}
+
+.select-friends > .user-header {
+  display: inline-flex;
+}
