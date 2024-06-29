@@ -24,7 +24,7 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build . --file Dockerfile --tag $(date +%s)
+          docker build . --file Dockerfile --tag sibaaaaani/my-app:$(date +%s)
 
       - name: Push the Docker image to Docker Hub
         run: |
