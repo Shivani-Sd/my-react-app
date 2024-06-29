@@ -24,8 +24,8 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build . --file Dockerfile --tag react-docker-image:$(date +%s)
+          docker build . --file Dockerfile --tag $(date +%s)
 
       - name: Push the Docker image to Docker Hub
         run: |
-          docker push sibaaaaani/my-app:react-docker-image:$(date +%s)
+          docker push sibaaaaani/my-app:$(date +%s)
