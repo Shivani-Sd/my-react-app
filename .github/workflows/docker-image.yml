@@ -28,4 +28,4 @@ jobs:
 
       - name: Push the Docker image to Docker Hub
         run: |
-          docker push react-docker-image:$(date +%s)
+          docker push sibaaaaani/my-app:react-docker-image:$(date +%s)
